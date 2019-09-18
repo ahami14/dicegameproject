@@ -43,15 +43,15 @@ function runGame(){
 
 function choosePokemon(name){ 
 	let dieRoll = rollDie(3);
-	alert ("Roll die for your Pokemon! Pikachu, Piplup, Litten");
+	alert ("Roll die for your Pokemon! Pikachu, Bulbasaur, Charmander");
 	if(rollDie === 1){
-		alert("Litten! I choose you!");
+		alert("Charmander! I choose you!");
 	}
 	else if(rollDie === 2){
-		alert("Piplup! I choose you!");
+		alert("Pikachu! I choose you!");
 	}
 	else{
-		alert("Pikachu! I choose you!")
+		alert("Bulbasaur! I choose you!")
 	}
 }
 
